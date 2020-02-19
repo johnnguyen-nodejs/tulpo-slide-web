@@ -1,0 +1,25 @@
+{
+  "name": "tulpo-slide-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnguyen-nodejs/tulpo-slide-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnguyen-nodejs/tulpo-slide-web/issues"
+  },
+  "homepage": "https://github.com/johnnguyen-nodejs/tulpo-slide-web#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
