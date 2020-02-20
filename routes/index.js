@@ -1,5 +1,6 @@
 const express = require("express");
-
+const Telegram = require('telegraf/telegram')
+const telegram = new Telegram('997188454:AAGcmatqy0uQkBoocDUUaDL5ConzKZGql0A')
 const router = express.Router();
 
 var initRouter = (app)=>{
@@ -29,8 +30,20 @@ var initRouter = (app)=>{
             title: "TULPO | Báo Giá Sản Phẩm"
         })
     })
+    router.post('/price',async (req, res) => {
+        var htmlContent = req.body
+        telegram.sendMessage(278948791, htmlContent.mota)
+        telegram.sendMessage(278948791, htmlContent.pt)
+        telegram.sendMessage(278948791, htmlContent.info)
+        telegram.sendMessage(695862559, htmlContent.mota)
+        telegram.sendMessage(695862559, htmlContent.pt)
+        telegram.sendMessage(695862559, htmlContent.info)
+        res.sendStatus(200)
+    })
 
-    
+    router.get('/*',(req,res)=>{
+        res.redirect("/");
+    })
     app.use('/', router);
 }
 

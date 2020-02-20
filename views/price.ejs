@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv=”content-language” content=”vi” />
+    <meta name=”description” content=”Tulpo, Công ty lập trình chuyên nghiệp, chuyên các mảng blockchain, ai, bot” />
+    <meta name=”robots” content=”noodp,index,follow” />
+    <meta name=”keywords” content=”lập trình, blockchain,ai,bot” />
+    <meta name=’revisit-after’ content=’1 days’ />
+    <title><%= title %></title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="./../price/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../price/css/style.css">
+    <link rel="stylesheet" href="./../css/phone.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="wiz">
+            <div class="signup-content">
+                <div class="signup-desc">
+                    <div class="signup-desc-content">
+                        <h2><span>Tulpo</span>.dev</h2>
+                        <p class="title">Chuyên Nghiệp - Tự Tin - Sáng Tạo</p>
+                        <p class="desc">
+                            Hãy chọn những yêu cầu mà quý khách hàng mong muốn trong dịch vụ và tra cứu báo giá tỏng quan của chúng tôi
+                        </p>
+                        <img src="./../price/images/asset.png" alt="Tulpo, lập trình phần mềm, blockchain, ai, bot" class="signup-img">
+                    </div>
+                </div>
+                <div class="signup-form-conent">
+                    <a href="/" class="btn btn-warning mt-5 ml-2">Trang Chủ</a>
+                    <form method="POST" id="signup-form" class="signup-form" enctype="multipart/form-data">
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Bước 1 / 6</span>
+                            <div class="form-group" id="choose-field">
+                                <select id="field" class="">
+                                    <option></option>
+                                    <option>Tài Chính (Fintech)</option>
+                                    <option>Thương Mại Điện Tử (E-commerce)</option>
+                                </select>
+                                <label for="field">Lĩnh Vực Hoạt Động Của Sản Phẩm</label>
+                            </div>
+                        </fieldset>
+    
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Bước 2 / 6</span>
+                            <div class="form-group" id="choose-type-fin">
+                                <!-- <input type="text" name="email" id="email" required/>
+                                <label for="email">Your Email</label> -->
+
+                                <select id="type-fin" class="">
+                                    <option></option>
+                                    <option >Chatbot Messenger</option>
+                                    <option>Chatbot Telegram</option>
+                                    <option>Sàn Giao Dịch</option>
+                                    <option>Ví Điện Tử</option>
+                                    <option>Hệ Thống Đa Cấp</option>
+                                    <option>Tiện Ích Mở Rộng Chrome</option>
+                                    <option>Market Maker</option>
+                                    <option>Robot Giao Dịch Thuật Toán</option>
+                                    <option>Ứng Dụng Phi Tập trung</option>
+                                    <option>Phần Mềm Kế Toán Doanh Nghiệp</option>
+                                    <option>Cổng Thanh Toán</option>
+                                </select>
+                                <label for="type-fin">Loại Sản Phẩm Bạn Muốn Xây Dựng</label>
+                            </div>
+
+                            <div class="form-group" id="choose-type-ecom">
+                                <select id="type-ecom" class="">
+                                    <option></option>
+                                    <option>Chatbot Messenger</option>
+                                    <option>Web Thương Mại Điện Tử</option>
+                                    <option>Hệ Thống Đa Cấp</option>
+                                    <option>Tiện Ích Mở Rộng Chrome</option>
+                                    <option>Phần Mềm CRM</option>
+                                </select>
+                                <label for="type-ecom">Loại Sản Phẩm Bạn Muốn Xây Dựng</label>
+                            </div>
+                        </fieldset>
+    
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Bước 3 / 6</span>
+                            <h2 class="b3">Mô Tả Tính Năng Sản Phẩm</h2>
+                            <div class="form-group" id="fin-mess">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tra cứu thông tin thị trường", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Giá, khối lượng, thay đổi giá, xếp hạng, tin tức mới, ...">Tra cứu thông tin thị trường</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tra cứu thông tin mã giao dịch", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Nhà sáng lập, số lượng phát hành, phân bổ, kế hoạch, lộ trình, ...">Tra cứu thông tin mã giao dịch</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Báo giá tự động theo cài đặt", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Báo giá tự động theo cài đặt</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Đặt lệnh giao dịch thông qua Bot", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Đặt lệnh giao dịch thông qua Bot</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tự động giao dịch theo thuật toán", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tự động giao dịch theo thuật toán</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giao dịch quyền chọn nhị phân", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="MiniBO on Bot">Giao dịch quyền chọn nhị phân</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Ví điện tử & Cổng thanh toán", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="MiniWallet on Bot">Ví điện tử & Cổng thanh toán</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ Xác nhận Mail", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Xác thực địa chỉ mail">Nhiệm vụ Xác nhận Mail</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ check Like Fanpage", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Kiểm tra người dùng Like Fanpage">Nhiệm vụ check Like Fanpage</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ check đăng kí kênh Youtube", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Kiểm tra người dùng đăng ký kênh Youtube">Nhiệm vụ check đăng kí kênh Youtube</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ tham gia nhóm cộng đồng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Telegram, zalo, ...">Nhiệm vụ tham gia nhóm cộng đồng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Kiểm tra đăng kí Web, App", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Kiểm tra đăng kí Web, App</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giới thiệu thông tin dự án", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giới thiệu thông tin dự án</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Link giới thiệu, chia sẻ & phát thưởng", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Airdrop & Bounty">Link giới thiệu, chia sẻ & phát thưởng</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Khảo sát thông tin người dùng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Email, số điện thoại, ...">Khảo sát thông tin người dùng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chăm sóc & nhắc nhở người dùng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chăm sóc & nhắc nhở người dùng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thông báo phụ trợ", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Tích hợp chức năng thông báo hỗ trợ cho App, Web">Cổng thông báo phụ trợ</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Xuất dữ liệu ra Excel & quản trị Admin", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Tích hợp chức năng thông báo hỗ trợ cho App, Web">Xuất dữ liệu ra Excel & quản trị Admin</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group" id="fin-tele">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tra cứu thông tin thị trường", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Giá, khối lượng, thay đổi giá, xếp hạng, tin tức mới, ...">Tra cứu thông tin thị trường</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tra cứu thông tin mã giao dịch", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Nhà sáng lập, số lượng phát hành, phân bổ, kế hoạch, lộ trình, ...">Tra cứu thông tin mã giao dịch</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Báo giá tự động theo cài đặt", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Báo giá tự động theo cài đặt</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Đặt lệnh giao dịch thông qua Bot", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Đặt lệnh giao dịch thông qua Bot</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tự động giao dịch theo thuật toán", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tự động giao dịch theo thuật toán</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giao dịch quyền chọn nhị phân", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="MiniBO on Bot">Giao dịch quyền chọn nhị phân</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Ví điện tử & Cổng thanh toán", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="MiniWallet on Bot">Ví điện tử & Cổng thanh toán</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ Xác nhận Mail", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Xác thực địa chỉ mail">Nhiệm vụ Xác nhận Mail</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ check Like Fanpage", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Kiểm tra người dùng Like Fanpage">Nhiệm vụ check Like Fanpage</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ check đăng kí kênh Youtube", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Kiểm tra người dùng đăng ký kênh Youtube">Nhiệm vụ check đăng kí kênh Youtube</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nhiệm vụ tham gia nhóm cộng đồng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Telegram, zalo, ...">Nhiệm vụ tham gia nhóm cộng đồng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Kiểm tra đăng kí Web, App", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Kiểm tra đăng kí Web, App</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giới thiệu thông tin dự án", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giới thiệu thông tin dự án</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Link giới thiệu, chia sẻ & phát thưởng", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Airdrop & Bounty">Link giới thiệu, chia sẻ & phát thưởng</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Khảo sát thông tin người dùng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Email, số điện thoại, ...">Khảo sát thông tin người dùng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chăm sóc & nhắc nhở người dùng", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chăm sóc & nhắc nhở người dùng</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thông báo phụ trợ", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Tích hợp chức năng thông báo hỗ trợ cho App, Web">Cổng thông báo phụ trợ</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Mining Pool", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Tích hợp mỏ đào coin trên bot (MiniPool on BOT)">Mining Pool</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Xuất dữ liệu ra Excel & quản trị Admin", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Tích hợp chức năng thông báo hỗ trợ cho App, Web">Xuất dữ liệu ra Excel & quản trị Admin</td>
+                                                <td>0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-exchange">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn trao đổi tiền mã hóa (Exchanger)", "g": "350,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn trao đổi tiền mã hóa (Exchanger)</td>
+                                                <td>350,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn giao dịch tiền mã hóa hỗ trợ đòn bẩy (Margin)", "g": "450,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn giao dịch tiền mã hóa hỗ trợ đòn bẩy (Margin)</td>
+                                                <td>450,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn giao dịch hợp đồng phái sinh (Futures)", "g": "600,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn giao dịch hợp đồng phái sinh (Futures)</td>
+                                                <td>600,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn cho vay & trả thưởng (Lending)", "g": "500,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn cho vay & trả thưởng (Lending)</td>
+                                                <td>500,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn quyền chọn nhị phân (BO)", "g": "150,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn quyền chọn nhị phân (BO)</td>
+                                                <td>150,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Forex Broker (MT4/5)", "g": "300,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Forex Broker (MT4/5)</td>
+                                                <td>300,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Mobile", "g": "100,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Mobile</td>
+                                                <td>100,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giao diện tùy chỉnh theo yêu cầu", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giao diện tùy chỉnh theo yêu cầu</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Web", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Web</td>
+                                                <td>0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-wallet">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "BTC", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">BTC</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "ETH & Token", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">ETH & Token</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "EOS & Token", "g": "35,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">EOS & Token</td>
+                                                <td>35,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "TRX & Token", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">TRX & Token</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "NEO & Token", "g": "35,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">NEO & Token</td>
+                                                <td>35,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "LISK & Token", "g": "25,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">LISK & Token</td>
+                                                <td>25,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "BNB & Token", "g": "45,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">BNB & Token</td>
+                                                <td>45,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "ATOM & Token", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">ATOM & Token</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Dapp Browser", "g": "150,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Dapp Browser</td>
+                                                <td>150,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-mlm">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chức năng phổ biến mặc định", "g": "35,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Gói, tầng, trả lãi, ...">Chức năng phổ biến mặc định</td>
+                                                <td>35,000,000</td>
+                                            </tr>
+                                           
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổ phiếu điện tử", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổ phiếu điện tử</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Coin riêng tích hợp vào hệ thống", "g": "70,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Coin riêng tích hợp vào hệ thống</td>
+                                                <td>70,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Token riêng tích hợp vào hệ thống", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Token riêng tích hợp vào hệ thống</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán BTC", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán BTC</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán ETH", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán ETH</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán XRP", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán XRP</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán EOS", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán EOS</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán BNB", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán BNB</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán USDT", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán USDT</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán USD", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán USD</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán VND", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán VND</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chia nhóm hoạt động", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chia nhóm hoạt động</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Mini Game phụ trợ", "g": "35,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Mini Game phụ trợ</td>
+                                                <td>35,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Airdrop tích hợp vào hệ thống", "g": "35,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Chiến dịch marketing nhanh">Airdrop tích hợp vào hệ thống</td>
+                                                <td>35,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Mobile", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Mobile</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Web", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Web</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bảng quản trị Admin", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bảng quản trị Admin</td>
+                                                <td>0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-extension">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Dạng ví điện tử", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Dạng ví điện tử</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Dạng Bot giao dịch tự động", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Dạng Bot giao dịch tự động</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Dạng Cryptocurrency Tracker", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Dạng Cryptocurrency Tracker</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-marker">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tạo khối lượng giao dịch (*)", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tạo khối lượng giao dịch (*)</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Điều tiết giá và tạo xu hướng (*)", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Điều tiết giá và tạo xu hướng (*)</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Thị trường tiền mã hóa", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Thị trường tiền mã hóa</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Thị trường cổ phiếu", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Thị trường cổ phiếu</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-robot">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Thị trường Forex (MT4/5)", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Thị trường Forex (MT4/5)</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Thị trường tiền mã hóa", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Thị trường tiền mã hóa</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tích hợp hệ thống AI Trading", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tích hợp hệ thống AI Trading</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-dapp">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Token", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Token</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Blockchain", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Blockchain</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bảo hiểm kĩ thuật số", "g": "80,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bảo hiểm kĩ thuật số</td>
+                                                <td>80,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Lưu ký kĩ thuật số & Logictis", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Lưu ký kĩ thuật số & Logictis</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Ví phi tập trung", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Ví phi tập trung</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sàn phi tập trung", "g": "90,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sàn phi tập trung</td>
+                                                <td>90,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Game xổ số & casino", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Game xổ số & casino</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Ủy thác và trả lãi", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Ủy thác và trả lãi</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nền tảng ETH", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Nền tảng ETH</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nền tảng EOS", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Nền tảng EOS</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nền tảng TRX", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Nền tảng TRX</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Nền tảng BNB", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Nền tảng BNB</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-acc">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tính năng cho nghiệp vụ chung", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tính năng cho nghiệp vụ chung</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tích hợp AI hỗ trợ", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tích hợp AI hỗ trợ</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Web", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Web</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản PC", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản PC</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="fin-pay">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng BTC", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng BTC</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng USDT", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng USDT</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng ETH", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng ETH</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng VND", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng VND</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng USD", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng USD</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="ecom-mess">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giỏ hàng", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giỏ hàng</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Mini Game", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Mini Game</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tự động tư vấn, hỏi đáp về sản phẩm", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tự động tư vấn, hỏi đáp về sản phẩm</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Đặt hàng & quản lý đơn hàng", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Đặt hàng & quản lý đơn hàng</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Link giới thiệu Event & Tích điểm Bonus", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Link giới thiệu Event & Tích điểm Bonus</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Inbox người dùng comment", "g": "1,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Inbox người dùng comment</td>
+                                                <td>1,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tự động đặt Shipper", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tự động đặt Shipper</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Thông báo & chăm sóc khách hàng định kỳ", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Thông báo & chăm sóc khách hàng định kỳ</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Xuất data khách hàng ra Excel", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Xuất data khách hàng ra Excel</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bot nền tảng tương tác hai chiều", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="Đặt xe, đặt phòng, tìm nhà trọ, đồ ăn, đặt chỗ, phòng khám, ghép đôi, ...">Bot nền tảng tương tác hai chiều</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tìm nhóm theo từ khóa", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tìm nhóm theo từ khóa</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Xuất danh sách nhóm", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Xuất danh sách nhóm</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chăm sóc Fanpage tự động", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chăm sóc Fanpage tự động</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bộ công cụ hỗ trợ MKT trên BOT", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bộ công cụ hỗ trợ MKT trên BOT</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="ecom-store">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giỏ hàng & Gian hàng", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giỏ hàng & Gian hàng</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phân loại sản phẩm", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phân loại sản phẩm</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Event & Flash sale", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Event & Flash sale</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sinh mã khuyến mại, xu", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sinh mã khuyến mại, xu</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản lý danh sách giao nhận hàng", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản lý danh sách giao nhận hàng</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Các phương thức bảo mật", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Các phương thức bảo mật</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Live Stream & Newsfeed (Hot)", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Live Stream & Newsfeed (Hot)</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Web", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Web</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Mobile", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Mobile</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="ecom-mlm">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Hoa hồng, bonus & Cấp độ kinh doanh (Cây hệ thống)", "g": "20,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Hoa hồng, bonus & Cấp độ kinh doanh (Cây hệ thống)</td>
+                                                <td>20,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Danh sách đại lý theo bản đồ", "g": "2,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Danh sách đại lý theo bản đồ</td>
+                                                <td>2,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Kéo danh mục hàng từ các trang lớn", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Kéo danh mục hàng từ các trang lớn</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Hoàn tiền (Cashback) & gói cổ phiếu", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Hoàn tiền (Cashback) & gói cổ phiếu</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Giỏ hàng & Gian hàng", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Giỏ hàng & Gian hàng</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phân loại sản phẩm", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phân loại sản phẩm</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Event & Flash sale", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Event & Flash sale</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thanh toán", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thanh toán</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Sinh mã khuyến mại, xu", "g": "3,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Sinh mã khuyến mại, xu</td>
+                                                <td>3,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản lý danh sách giao nhận hàng", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản lý danh sách giao nhận hàng</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Các phương thức bảo mật", "g": "15,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Các phương thức bảo mật</td>
+                                                <td>15,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Live Stream & Newsfeed (Hot)", "g": "50,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Live Stream & Newsfeed (Hot)</td>
+                                                <td>50,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Web", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Web</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Phiên bản Mobile", "g": "30,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Phiên bản Mobile</td>
+                                                <td>30,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chiến dịch spin MKT", "g": "25,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chiến dịch spin MKT</td>
+                                                <td>25,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Tham gia & đăng kí đại lý qua mã QR", "g": "10,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Tham gia & đăng kí đại lý qua mã QR</td>
+                                                <td>10,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bảng quản trị Admin", "g": "0"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bảng quản trị Admin</td>
+                                                <td>0</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="ecom-extension">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bộ công cụ MKT Facebook", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bộ công cụ MKT Facebook</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Bộ công cụ MKT zalo", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Bộ công cụ MKT zalo</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Săn Sale, voucher", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Săn Sale, voucher</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "SEO", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">SEO</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="ecom-crm">
+                                <div class="container pt-5">
+                                    <table class="table  table-sm">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Chọn</th>
+                                                <th>Tính Năng</th>
+                                                <th>Giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Chiến dịch marketing", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Chiến dịch marketing</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị thông tin khách hàng", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị thông tin khách hàng</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị cơ hội bán hàng", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị cơ hội bán hàng</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản lý bán hàng", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản lý bán hàng</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị giao vận", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị giao vận</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Cổng thông tin khách hàng", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Cổng thông tin khách hàng</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Website bán hàng TMĐT", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Website bán hàng TMĐT</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị thông tin dự án", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị thông tin dự án</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản lý công việc", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản lý công việc</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Module chấm công", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Module chấm công</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Dashboard báo cáo", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Dashboard báo cáo</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Hệ thống tích hợp bên thứ 3", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Hệ thống tích hợp bên thứ 3</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị ngân sách", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị ngân sách</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" data-sp='{"tn": "Quản trị rủi ro", "g": "5,000,000"}'>
+                                                        <span class="custom-control-indicator"></span>
+                                                    </label>
+                                                </td>
+                                                <td data-toggle="tooltip" title="">Quản trị rủi ro</td>
+                                                <td>5,000,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Bước 4 / 6</span>
+                            
+                            <div class="form-group" id="choose-users">
+                                <select id="users" class="">
+                                    <option></option>
+                                    <option >500 ~ 1,000</option>
+                                    <option>1,000 ~ 5,000</option>
+                                    <option selected>5,000 ~ 10,000</option>
+                                    <option>10,000 ~ 50,000</option>
+                                    <option>50,000 ~ 100,000</option>
+                                    <option>100,000 ~ 500,000</option>
+                                    <option>500,000 ~ 1000,000</option>
+                                </select>
+                                <label for="users">Ước Tính Lượng Người Dùng Sản Phẩm</label>
+                            </div>
+
+                            <div class="form-group" id="choose-period">
+                                <select id="period" class="">
+                                    <option></option>
+                                    <option>1 Tháng</option>
+                                    <option>3 Tháng</option>
+                                    <option selected>6 Tháng</option>
+                                    <option>9 Tháng</option>
+                                    <option>12 Tháng</option>
+                                    <option>24 Tháng</option>
+                                    <option>36 Tháng</option>
+                                </select>
+                                <label for="period">Vòng Đời Duy Trì Hạ Tầng & Bảo Hành Sản Phẩm</label>
+                            </div>
+
+                            <div class="form-group" id="choose-provided">
+                                <select id="provided" class="">
+                                    <option></option>
+                                    <option selected>Tự Chuẩn Bị & Cung Cấp</option>
+                                    <option>Yêu Cầu Tulpo Thiết Kế Nội Dung</option>
+                                </select>
+                                <label for="provided">Phía Tạo Nội Dung Chuẩn</label>
+                            </div>
+
+                            <div class="form-group" id="choose-round">
+                                <select id="round" class="">
+                                    <option></option>
+                                    <option>40% - 30% - 30% (3 Đợt)</option>
+                                    <option>70% - 25% (2 Đợt | Chiết khấu 5%)</option>
+                                    <option selected>90% (1 Đợt | Chiết khấu 10%)</option>
+                                </select>
+                                <label for="round">Phương Thức Thanh Toán</label>
+                            </div>
+                        </fieldset>
+                        
+                        <h3></h3>
+                        <fieldset>
+                            <span class="step-current">Bước 5 / 6</span>
+
+                            <div class="form-group" id="">
+                                <input type="text" name="your_name" id="your_name" required/>
+                                <label for="your_name">Tên Của Bạn</label>
+                            </div>
+
+                            <div class="form-group" id="">
+                                <input type="text" name="your_phone" id="your_phone" required/>
+                                <label for="your_phone">Số Điện Thoại Của Bạn</label>
+                            </div>
+                        </fieldset>
+
+                        <h3></h3>
+                        <fieldset id="last">
+                            <span class="step-current">Bước 6 / 6</span>
+
+                            <h2 style="color:#193fba;">Bảng Báo Cáo Cho Khách Hàng</h2>
+                            <div class="form-group" id="bang-tn">
+
+                            </div>
+
+                            <div class="form-group" id="bang-bs">
+
+                            </div>
+
+                            <div id="end">
+
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+            <a href="tel:0866068861" class="pps-btn-img">
+                <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Tulpo, lập trình phần mềm, blockchain, ai, bot" width="50">
+            </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0866068861">
+                <span class="text-hotline">0866.068.861</span>
+            </a>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="./../price/vendor/jquery/jquery.min.js"></script>
+    <script src="./../price/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="./../price/vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="./../price/vendor/jquery-steps/jquery.steps.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16,0/dist/umd/popper.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./../price/vendor/notify.min.js"></script>
+    <script src="./../price/js/main.js"></script>
+    <script src="./../price/js/index.js"></script>
+</body>
+
+</html>

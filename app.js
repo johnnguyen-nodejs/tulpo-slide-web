@@ -1,7 +1,15 @@
 const express = require("express");
+const app = express();
+const http = require('http').createServer(app)
 const bodyParser = require("body-parser");
 const initRouter = require("./routes");
-const app = express();
+const Telegraf = require('telegraf')
+const bots = new Telegraf('997188454:AAGcmatqy0uQkBoocDUUaDL5ConzKZGql0A')
+
+bots.start((ctx) => {
+    ctx.reply('Chào Sếp Lộc')
+})
+
 
 app.use(express.static('public'))
 app.use(bodyParser.json())
@@ -15,6 +23,7 @@ initRouter(app);
 
 const port = process.env.PORT || 3000;
 
-app.listen(port, ()=>{
-    console.log(`server running on ${port}`)
+http.listen(port,()=>{
+    console.log(`Listening on HTTP Port: ${port}`);
 })
+bots.launch()
